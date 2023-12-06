@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="px-3 py-2 text-bg-dark border-bottom">
+        <div class="container">
+          <div
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+          >
+            <a
+              href="/"
+              class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none"
+            >
+              <span class="text-primary">ELECT</span>RONIC
+            </a>
+            <ul
+              class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small"
+            >
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg
+                    class="bi d-block mx-auto mb-1"
+                    width="24"
+                    height="24"
+                    fill="#fff"
+                  >
+                    <use href="./img/icons/symbols-defs.svg#icon-home"></use>
+                  </svg>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg
+                    class="bi d-block mx-auto mb-1"
+                    width="24"
+                    height="24"
+                    fill="#fff"
+                  >
+                    <use href="./img/icons/symbols-defs.svg#icon-basket"></use>
+                  </svg>
+                  Basket
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg
+                    class="bi d-block mx-auto mb-1"
+                    width="24"
+                    height="24"
+                    fill="#fff"
+                  >
+                    <use
+                      href="./img/icons/symbols-defs.svg#icon-products"
+                    ></use>
+                  </svg>
+                  Products
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg
+                    class="bi d-block mx-auto mb-1"
+                    width="24"
+                    height="24"
+                    fill="#fff"
+                  >
+                    <use
+                      href="./img/icons/symbols-defs.svg#icon-customer"
+                    ></use>
+                  </svg>
+                  Customers
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="px-3 py-2 border-bottom mb-3 bg-dark">
+        <div class="container d-flex flex-wrap justify-content-center">
+          <form
+            class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto"
+            role="search"
+          >
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+          </form>
+
+          <div class="text-end">
+            <button type="button" class="btn btn-primary text-white me-2">
+              <svg
+                class="bi d-block mx-auto mb-1"
+                width="24"
+                height="24"
+                fill="#fff"
+              >
+                <use href="./img/icons/symbols-defs.svg#icon-log-in"></use>
+              </svg>
+              Login
+            </button>
+            <button type="button" class="btn btn-danger">
+              <svg
+                class="bi d-block mx-auto mb-1"
+                width="24"
+                height="24"
+                fill="#fff"
+              >
+                <use href="./img/icons/symbols-defs.svg#icon-log-out"></use>
+              </svg>
+              Logout
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div
+            class="col-md-10 col-lg-12 order-md-1 order-lg-2 px-3 py-5 d-flex justify-content-center gap-xxl-6 gap-lg-5 gap-xl-5 gap-md-4 gap-3 flex-wrap"
+          >
+            <div class="card" style="width: 14rem">
+              <img src="./img/imac.jpg" class="card-img" alt="imac" />
+              <div class="card-body">
+                <h5 class="card-title text-center">IMAC</h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <button type="button" class="btn btn-secondary w-100">
+                  BUY
+                </button>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img
+                src="./img/macbook-air.webp"
+                class="card-img"
+                alt="macbook"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">MACBOOK-AIR</h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <button type="button" class="btn btn-secondary w-100">
+                  BUY
+                </button>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img
+                src="./img/applewatch.jpg"
+                class="card-img"
+                alt="applewatch"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">APPLEWATCH</h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <button type="button" class="btn btn-secondary w-100">
+                  BUY
+                </button>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img src="./img/iphone.jpg" class="card-img" alt="Iphone" />
+              <div class="card-body">
+                <h5 class="card-title text-center">IPHONE 14 PRO</h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <button type="button" class="btn btn-secondary w-100">
+                  BUY
+                </button>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img src="./img/airpods-max.jpg" class="card-img" alt="airpods" />
+              <div class="card-body">
+                <h5 class="card-title text-center">AirPods MAX</h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <button type="button" class="btn btn-secondary w-100">
+                  BUY
+                </button>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem">
+              <img src="img/airpods.webp" class="card-img" alt="airpods" />
+              <div class="card-body">
+                <h5 class="card-title text-center">Airpods</h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <button type="button" class="btn btn-secondary w-100">
+                  Buy
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav aria-label="...">
+  <ul class="pagination d-flex justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">2</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+    </main>
+    <footer class="py-2 bg-dark text-light">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 offset-md-1 mb-5">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-2 my-4 border-top"
+        >
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#"
+                ><svg class="svg" width="24" height="24">
+                  <use
+                    href="./img/icons/symbols-defs.svg#icon-whatsapp"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#"
+                ><svg class="svg" width="24" height="24">
+                  <use
+                    href="./img/icons/symbols-defs.svg#icon-instagram"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#"
+                ><svg class="svg" width="24" height="24">
+                  <use
+                    href="./img/icons/symbols-defs.svg#icon-facebook"
+                  ></use></svg
+              ></a>
+            </li>
+          </ul>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#"
+                ><svg class="svg" width="90" height="70">
+                  <use
+                    href="./img/icons/symbols-defs.svg#icon-mastercard"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#"
+                ><svg class="svg" width="90" height="70">
+                  <use href="./img/icons/symbols-defs.svg#icon-visa"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
